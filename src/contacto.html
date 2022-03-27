@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The offpring Contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="body">
+    <header class="header" >
+        <!--inicia nav-->
+        <nav class="nav">
+           
+            <a href="../index.html">
+                <img class="logo" src="../img/logo.png" alt="logo the offpring" >
+			</a>
+        <div class="divLista">
+            <ul class="lista" >
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="discografia.html">Discografia</a>
+                </li>
+
+                <li>
+                    <a href="videos.html">Videos</a>
+                </li>
+
+                <li>
+                    <a href="galeria.html">Galeria</a>
+                </li>
+
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>    
+
+        </nav>
+        <!--finaliza nav-->
+
+    </header>
+
+    <h1 class="titulo_contacto">contacto</h1>
+
+          <main class="form">
+              <section>
+                  <div>
+                      <form action="contacto.php" method="post" id="contacto">
+
+                        <div id="nombre">
+                          <label for="nombre">Nombre:</label>
+                          <input type="text" placeholder="ingresa tu nombre" name="nombre" id="nombre">
+                        </div>
+
+                        <div id="apellido">
+                          <label for="apellido">Apellido:</label>
+                          <input type="text" placeholder="ingresa tu apellido" name="apellido" id="apellido">
+                        </div>
+
+                        <div id="mail">
+                          <label for="mail">Mail:</label>
+                          <input type="email" placeholder="ingresa tu mail" name="mail" id="mail">
+                        </div>
+
+                        <div class="titulo_comentario" >  
+                           <label for="comentario">comentario:</label>
+                        </div>
+
+                        <div id="comentario" >
+                          <textarea name="opinion" id="opinion" cols="10" rows="10" placeholder="danos tu opinion"></textarea>
+                        </div>  
+					
+                    <div id="botones" >
+					<input type="submit" value="Enviar">
+					<input type="reset" value="Cancelar">
+					</div>
+
+                      </form>
+                  </div>
+              </section>
+          </main>
+
+
+
+          <footer class="footer">
+            <h3 class="titulo__footer">Siguenos en nuestras redes</h3> 
+            
+  <a href="https://facebook.com" target="_blank">
+      <img src="../img/face.png" alt="Seguinos en facebook" class="footer_icon">
+  </a>
+
+  <a href="https://instagram.com" target="_blank">
+      <img src="../img/insta.png" alt="Seguinos en instagram" class="footer_icon">
+  </a>
+
+  <a href="https://twitter.com" target="_blank">
+      <img src="../img/twit.png" alt="Seguinos en twitter" class="footer_icon">
+  </a>
+
+  
+
+         </footer>
+
+    
+
+        </body>
+
+</html>
