@@ -11,17 +11,17 @@
  }
 
 
+ a {
+  
+  transition: background-color .5s;
+}
 
+a:hover {
+  background-color: rgb(158, 158, 155);
+  border-radius: 5px;
+}
 
- #boton {
  
-           transition: background-color .5s;
-        }
-
-#boton:hover {
-           border-radius: 5px;
-           background-color: rgb(71, 71, 70);
-             }
 
 .logo{
       width: auto;
@@ -53,7 +53,7 @@
                  grid-area: header;
        }
 
-.fotosBanda{
+#fotosBanda{
                  grid-area: fbanda;
            }
 
@@ -61,7 +61,7 @@
                  grid-area: divBiografia;
                }
 
-.fotosBanda2{
+#fotosBanda2{
                  grid-area: fbanda2;
             }
 
@@ -90,7 +90,7 @@
       
 
 /* divlista */
-.divLista{
+#divLista{
           display: grid;
           grid-template-columns: 1fr;
           grid-template-rows: auto;
@@ -98,7 +98,7 @@
            
          }
       
-.divLista ul li{
+#divLista ul li{
                  font-size: 2rem;
 	           margin-left: 4rem;
 	           list-style: none;
@@ -109,7 +109,7 @@
         
                }
 
-.divLista ul li a{
+#divLista ul li a{
                    text-decoration: none;
                    color:rgb(198, 188, 188);
                   }
@@ -167,7 +167,7 @@ html{
                                margin-bottom: 2rem;
                              }
                   
-.fotosBanda{
+#fotosBanda{
              
              display: flex;
              flex-wrap: wrap;
@@ -176,7 +176,7 @@ html{
               margin-bottom: 2rem;
            }
 
-.fotosBanda2{
+#fotosBanda2{
                display: flex;
                flex-wrap: wrap;
                align-items: stretch;
@@ -400,6 +400,9 @@ html{
   #opinion{
         width: 20rem;
           } 
-       
+  .carousel{   
+           width: 320px;
+           }
+                          
 } 
 

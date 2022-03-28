@@ -5,20 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The offpring</title>
+    <!--BS-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--CSS-->
     <link rel="stylesheet" href="./css/style.css">
+    <!--wow js-->
+    <link rel="stylesheet" href="./css/animate.css">
+    <script src="./js/wow.min.js"></script>
+    
+    <script>
+        new WOW().init();
+
+ </script>  
+
 </head>
 <body class="body">
     <header>
         <!--inicia nav-->
         <nav class="nav">
            
-               <a href="../index.html">
+               <a href="./index.html">
                       <img class="logo" src="./img/logo.png" alt="logo the offpring" >
 			    </a>
-          <div class="divLista">
+          <div class="wow slideInRight" data-wow-offset="10" id="divLista">
                 <ul class="lista" >
                     <li>
-                        <a href="index.html" id="boton">Home</a>
+                        <a href="index.html"  id="boton">Home</a>
                    </li>
                     <li>
                         <a href="./src/discografia.html" id="boton">Discografia</a>
@@ -44,7 +56,7 @@
     </header>
             
    
-    <div class="fotosBanda">
+    <div  class="wow flipInX" id="fotosBanda">
 
         <img id="fban" src="./img/banda1.jpg" alt="the offpring" >
         <img id="fban" src="./img/banda2.jpg" alt="the offpring" >
@@ -100,7 +112,7 @@
 
 
 
-    <div class="fotosBanda2">
+    <div class="wow flipInX" id="fotosBanda2">
 
         <img src="./img/banda4.jpg" alt="the offpring" class="banda3">
         <img src="./img/banda5.jpg" alt="the offpring" class="banda4">
@@ -128,8 +140,8 @@
 
     </footer>
        
-       
-
+     
+    <script src="./js/bootstrap.min.js"></script>
    
     
 </body>
