@@ -276,8 +276,8 @@ html{
 /*galeria*/
 
 
-.carousel-inner {
-                           padding-left: 550px;
+.carousel{
+                           
                            align-items: center;
                            justify-content: center;
                 }
