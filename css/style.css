@@ -276,11 +276,13 @@ html{
 /*galeria*/
 
 
-.carousel{
-                           
-                           align-items: center;
-                           justify-content: center;
-                }
+.carsec{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+       }
+
+
 
 .titulo__biografia--uppercase{
                  
@@ -400,9 +402,7 @@ html{
   #opinion{
         width: 20rem;
           } 
-  .carousel{   
-           width: 320px;
-           }
+  
                           
 } 
 
