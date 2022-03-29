@@ -184,18 +184,18 @@ html{
                margin-top: 2rem;
             }
             
-.titulo__footer{
+/* /* .titulo__footer{
                    color: rgb(198, 188, 188);
                    text-align: left;
                    text-transform: uppercase;
                    margin-right: 2rem;
-                   margin-top: 7rem;
-}            
+                   margin-top: 7rem; 
+}             
 
-.footer{
+/* .foo{
       
 	     display: flex;
-           color: rgb(198, 188, 188);
+       position: relative;    
       
        }
        
@@ -203,7 +203,7 @@ html{
               width: 5rem;
               margin-top: 5rem;
               margin-left: 2rem;
-            }       
+            }        */
        
 
 /* discografia */      
@@ -259,6 +259,8 @@ html{
 /* finaliza discografia */
 /*---------------------------------------------------------------/*
 /* videos */
+
+
 
 .videos{
            display: flex;
