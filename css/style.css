@@ -41,9 +41,11 @@ a:hover {
          background-image: url(../img/background.jpg);
          background-size: cover;
          display: grid;
-         grid-template-columns: 1fr;
+         grid-template-columns: 3fr;
          grid-template-rows: auto;
-         grid-template-areas: "header" "fbanda" "divBiografia" "fbanda2"  "discografias" "videos" "galeria" "form" "footer";  
+         grid-template-areas: "header" "fbanda" "divBiografia" "fbanda2"  "discografias" "videos" "galeria" "form" "footer"; 
+         
+        
          
       }
 
@@ -191,9 +193,15 @@ html{
  #foo{
           
 	     display:flex;
-       position: relative;    
+       position:sticky;
+        
+       width: 100%;
+       bottom: 0px;  
       
-       } 
+       }
+ #divfoo{
+       bottom: 0px;
+ }       
        
 
        
@@ -210,6 +218,9 @@ html{
             }
 
 .titulo__discografia{
+                       display: flex;
+                       align-items: center;
+                       justify-content: center;
                        color: rgb(198, 188, 188);
                        text-align: center;
                        font-size: 2rem;
@@ -304,6 +315,7 @@ html{
          display: flex;
          flex-direction: column;
          margin-left: 5rem;
+         width: auto;
     }        
 
 #nombre{
@@ -338,8 +350,8 @@ html{
 }
 
 #opinion{
-           overflow: scroll;
-           overflow: hidden;
+  
+           overflow: scroll hidden;
            resize: none;
            width:30rem ;
         }
