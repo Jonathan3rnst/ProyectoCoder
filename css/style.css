@@ -1,19 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Shippori Antique B1", sans-serif;
+}
 
-
-*{
-   margin: 0%;
-   padding: 0%;
-   box-sizing: border-box;
-   font-family: 'Shippori Antique B1', sans-serif;
-   
- }
-
-
- a {
-  
-  transition: background-color .5s;
+a {
+  transition: background-color 0.5s;
 }
 
 a:hover {
@@ -21,394 +16,319 @@ a:hover {
   border-radius: 5px;
 }
 
- 
+.logo {
+  width: auto;
+  height: auto;
+  cursor: pointer;
+}
 
-.logo{
-      width: auto;
-      height: auto;
-      cursor: pointer;
-     }
-      
+.nav {
+  display: flex;
+}
 
-.nav{
-      display: flex;
-    }
-      
-     
-
-.body{ 
-         background-attachment: fixed;
-         background-image: url(../img/background.jpg);
-         background-size: cover;
-         display: grid;
-         grid-template-columns: 3fr;
-         grid-template-rows: auto;
-         grid-template-areas: "header" "fbanda" "divBiografia" "fbanda2"  "discografias" "videos" "galeria" "form" "footer"; 
-         
-        
-         
-      }
+.body {
+  background-attachment: fixed;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 3fr;
+  grid-template-rows: auto;
+  grid-template-areas: "header" "fbanda" "divBiografia" "fbanda2" "discografias" "videos" "galeria" "form" "footer";
+}
 
 /* defino las areas de layout */
 
-.header{
-                 grid-area: header;
-       }
+.header {
+  grid-area: header;
+}
 
-#fotosBanda{
-                 grid-area: fbanda;
-           }
+#fotosBanda {
+  grid-area: fbanda;
+}
 
-.div__biografia{
-                 grid-area: divBiografia;
-               }
+.div__biografia {
+  grid-area: divBiografia;
+}
 
-#fotosBanda2{
-                 grid-area: fbanda2;
-            }
+#fotosBanda2 {
+  grid-area: fbanda2;
+}
 
-.footer{
-                grid-area: footer;
-      }
+.footer {
+  grid-area: footer;
+}
 
-.discografias{
-                grid-area: discografias;
-             }
+.discografias {
+  grid-area: discografias;
+}
 .videos {
-                grid-area: videos;
-        } 
-        
-.galeria{
-               grid-area: galeria;
-        }
+  grid-area: videos;
+}
 
-.form{
-               grid-area: form; 
-     }
+.galeria {
+  grid-area: galeria;
+}
 
-/* fin de las areas de layout */      
+.form {
+  grid-area: form;
+}
 
-
-      
+/* fin de las areas de layout */
 
 /* divlista */
-#divLista{
-          display: grid;
-          grid-template-columns: 1fr;
-          grid-template-rows: auto;
-          margin-bottom: 3rem;
-           
-         }
-      
-#divLista ul li{
-                 font-size: 2rem;
-	           margin-left: 4rem;
-	           list-style: none;
-                 display: inline-block;
-                 margin-top: 5rem;
-                 margin-right: 5rem;
-      
-        
-               }
+#divLista {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  margin-bottom: 3rem;
+}
 
-#divLista ul li a{
-                   text-decoration: none;
-                   color:rgb(198, 188, 188);
-                  }
-                  
+#divLista ul li {
+  font-size: 2rem;
+  margin-left: 4rem;
+  list-style: none;
+  display: inline-block;
+  margin-top: 5rem;
+  margin-right: 5rem;
+}
 
-
-
-                
-                   
-                   
-
-        
+#divLista ul li a {
+  text-decoration: none;
+  color: rgb(198, 188, 188);
+}
 
 /* fin div lista */
 
+.biografia {
+  color: rgba(237, 227, 227, 0.53);
+  text-align: left;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
-.biografia{
-             color:rgba(237, 227, 227, 0.53);
-             text-align: left;  
-             font-size: 2rem;
-             line-height: 2rem;
-             margin-top: 2rem;
-             margin-bottom: 1rem;
-             display: flex;
-             flex-wrap: wrap;
-             justify-content: space-around;
-          }
-          
-.div__biografia{
-                 border: inset;
-                 color: azure;
-                 padding-top: 20px;
-	           padding-right: 10px;
-	           padding-bottom: 20px;
-	           padding-left: 10px;
-                 width: 90%; 
-                 height: auto;
-                 box-sizing: border-box;
-                 margin-left: auto;
-                 margin-right: auto;
-                 
-                 
+.div__biografia {
+  border: inset;
+  color: azure;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  width: 90%;
+  height: auto;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-               }          
+html {
+  font-size: 62.5%;
+  display: flex;
+}
 
-html{
-      font-size: 62.5%;
-      display: flex;
-    }
+.titulo__biografia--uppercase {
+  color: rgb(198, 188, 188);
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
 
-.titulo__biografia--uppercase{
-                               color: rgb(198, 188, 188);
-                               text-align: center;
-                               text-transform: uppercase;
-                               margin-bottom: 2rem;
-                             }
-                  
-#fotosBanda{
-             
-             display: flex;
-             flex-wrap: wrap;
-              align-items: stretch;
-              justify-content: space-around;
-              margin-bottom: 2rem;
-           }
+#fotosBanda {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
 
-#fotosBanda2{
-               display: flex;
-               flex-wrap: wrap;
-               align-items: stretch;
-               justify-content: space-around;
-               margin-top: 2rem;
-               
-            }
-            
+#fotosBanda2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
 
-             
- 
- #foo{
-          
-	     display:flex;
-       position:sticky;
-        
-       width: 100%;
-       bottom: 0px;  
-      
-       }
- #divfoo{
-       bottom: 0px;
- }       
-       
+#foo {
+  display: flex;
+  position: sticky;
 
-       
+  width: 100%;
+  bottom: 0px;
+}
+#divfoo {
+  bottom: 0px;
+}
 
-/* discografia */      
-.discografias{
-              
-              display: flex;
-              flex-wrap: wrap;
-              justify-content: flex-start;
-              
-              
-              
-            }
+/* discografia */
+.discografias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
 
-.titulo__discografia{
-                       display: flex;
-                       align-items: center;
-                       justify-content: center;
-                       color: rgb(198, 188, 188);
-                       text-align: center;
-                       font-size: 2rem;
-                       margin-bottom: 2rem;
-                       
-                    }
+.titulo__discografia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(198, 188, 188);
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
 
-.p_discografia{
-                  color: rgb(198, 188, 188);
-                  text-align: center justify;
-                  font-size: 1.3rem;
-               } 
-               
-.smash{
-         text-align: center;
-        
-         
-         
-      }
-      
-.consp{
-        text-align: center;
-       
-      }
-    
-.hombre{
-        text-align: center;
-        
-       }
+.p_discografia {
+  color: rgb(198, 188, 188);
+  text-align: center justify;
+  font-size: 1.3rem;
+}
 
-.americana{
-        text-align: center;
-        
-      }
-#americana1{
-             margin-top: 1rem;
-             margin-bottom: 3rem;
-           } 
+.smash {
+  text-align: center;
+}
+
+.consp {
+  text-align: center;
+}
+
+.hombre {
+  text-align: center;
+}
+
+.americana {
+  text-align: center;
+}
+#americana1 {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
 /* finaliza discografia */
 /*---------------------------------------------------------------/*
 /* videos */
 
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
 
+#div_video {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 
-.videos{
-           display: flex;
-          flex-wrap: wrap;
-           justify-content: flex-start;
-       }
-
-#div_video{
-          margin-left: 1rem;
-          margin-right: 1rem;
-          }
-          
 /*finaliza video*/
 
 /*galeria*/
 
+.carsec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-.carsec{
-          display: flex;
-          align-items: center;
-          justify-content: center;
-       }
+.titulo__biografia--uppercase {
+  margin-top: 10rem;
+}
 
-
-
-.titulo__biografia--uppercase{
-                 
-                                margin-top: 10rem;          
-                             }
-
-.galeria{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            
-        }
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 /* fin galeria */
 
-
-.titulo_contacto{
-                   color: rgb(198, 188, 188);
-                   font-size: 2rem;
-                   margin-bottom: 3rem;
-                   margin-left: 5rem;
-                }
-
-
-.form{
-         display: flex;
-         flex-direction: column;
-         margin-left: 5rem;
-         width: auto;
-    }        
-
-#nombre{
-          color: rgb(198, 188, 188);
-          font-size: 1.5rem;
-          margin-bottom: 1rem;
-  
-       }    
-
-#apellido{
-            color: rgb(198, 188, 188);
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-            
-         }        
-
-#mail{
-           color: rgb(198, 188, 188);
-           font-size: 1.5rem;
-           margin-bottom: 1rem;
-           
-           
-                       
-     }
-            
-#comentario{
-               color: rgb(198, 188, 188);
-               font-size: 1.5rem;
-               margin-bottom: 1rem;
-               align-items: stretch;
-                       
+.titulo_contacto {
+  color: rgb(198, 188, 188);
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  margin-left: 5rem;
 }
 
-#opinion{
-  
-           overflow: scroll hidden;
-           resize: none;
-           width:30rem ;
-        }
-  
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+  width: auto;
+}
 
-.titulo_comentario{
-                    color: rgb(198, 188, 188);
-                    font-size: 1.5rem;
-                    padding-bottom: 2rem;
-                  }  
-                  
-                  
+#nombre {
+  color: rgb(198, 188, 188);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#apellido {
+  color: rgb(198, 188, 188);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#mail {
+  color: rgb(198, 188, 188);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#comentario {
+  color: rgb(198, 188, 188);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  align-items: stretch;
+}
+
+#opinion {
+  overflow: scroll hidden;
+  resize: none;
+  width: 30rem;
+}
+
+.titulo_comentario {
+  color: rgb(198, 188, 188);
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
 /* media queris */
 
-
-@media (max-width: 790px){
-
-
-      .logo{
-             width: 95%;
-           }
-     
+@media (max-width: 790px) {
+  .logo {
+    width: 95%;
+  }
 }
 
-              
+@media (max-width: 788px) {
+  #fban {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+  }
+}
 
+@media (max-width: 360px) {
+  .nav {
+    justify-content: center;
+  }
 
-@media (max-width: 788px){
-
-      #fban{
-            padding-top: 1rem;
-            padding-bottom: 3rem;      
-          }
-
-        }
-
-@media (max-width: 360px ){
-
-  #vid1{
+  #vid1 {
     width: 340px;
     align-items: center;
-       }
-  #vid2{
+  }
+  #vid2 {
     width: 340px;
     align-items: center;
-       }
-  #vid3{
+  }
+  #vid3 {
     width: 340px;
     align-items: center;
-       }
-  .form{
+  }
+  .form {
     width: -5px;
-       }
-  #opinion{
-        width: 20rem;
-          } 
-  
-                          
-} 
-
+  }
+  #opinion {
+    width: 20rem;
+  }
+}
