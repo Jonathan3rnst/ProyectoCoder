@@ -1,0 +1,52 @@
+
+  .titulo_contacto {
+	color: rgb(198, 188, 188);
+	font-size: 2rem;
+	margin-bottom: 3rem;
+	margin-left: 5rem;
+  }
+  
+  .form {
+	display: flex;
+	flex-direction: column;
+	margin-left: 5rem;
+	width: auto;
+  }
+  
+  #nombre {
+	color: rgb(198, 188, 188);
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+  }
+  
+  #apellido {
+	color: rgb(198, 188, 188);
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+  }
+  
+  #mail {
+	color: rgb(198, 188, 188);
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+  }
+  
+  #comentario {
+	color: rgb(198, 188, 188);
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+	align-items: stretch;
+  }
+  
+  #opinion {
+	overflow: scroll hidden;
+	resize: none;
+	width: 30rem;
+  }
+  
+  .titulo_comentario {
+	color: rgb(198, 188, 188);
+	font-size: 1.5rem;
+	padding-bottom: 2rem;
+  }
+  

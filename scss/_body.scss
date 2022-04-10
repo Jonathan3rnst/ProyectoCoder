@@ -1,0 +1,50 @@
+.body {
+	background-attachment: fixed;
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	display: grid;
+	grid-template-columns: 3fr;
+	grid-template-rows: auto;
+	grid-template-areas: "header" "fbanda" "divBiografia" "fbanda2" "discografias" "videos" "galeria" "form" "footer";
+  }
+  
+  /* defino las areas de layout */
+  
+  .header {
+	grid-area: header;
+  }
+  
+  #fotosBanda {
+	grid-area: fbanda;
+  }
+  
+  .div__biografia {
+	grid-area: divBiografia;
+  }
+  
+  #fotosBanda2 {
+	grid-area: fbanda2;
+  }
+  
+  .footer {
+	grid-area: footer;
+  }
+  
+  .discografias {
+	grid-area: discografias;
+  }
+  .videos {
+	grid-area: videos;
+  }
+  
+  .galeria {
+	grid-area: galeria;
+  }
+  
+  .form {
+	grid-area: form;
+  }
+  
+  /* fin de las areas de layout */
+  
+ 

@@ -1,0 +1,41 @@
+.discografias {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+  }
+  
+  .titulo__discografia {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: rgb(198, 188, 188);
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 2rem;
+  }
+  
+  .p_discografia {
+	color: rgb(198, 188, 188);
+	text-align: center justify;
+	font-size: 1.3rem;
+  }
+  
+  .smash {
+	text-align: center;
+  }
+  
+  .consp {
+	text-align: center;
+  }
+  
+  .hombre {
+	text-align: center;
+  }
+  
+  .americana {
+	text-align: center;
+  }
+  #americana1 {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+  }

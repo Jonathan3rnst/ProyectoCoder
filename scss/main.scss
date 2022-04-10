@@ -1,206 +1,101 @@
-@import 
-url("https &://fonts &.googleapis &.com/css2?family=Shippori & + Antique & + B1& d isplay=swap"); 
+@import "_navBar.scss",
+        "_body.scss",
+		"_galeria.scss",
+		"_contacto.scss",
+		"_fonts.scss",
+		"_breakPoints.scss",
+		"_discografias.scss",
+		"_footer.scss",
+		"_videos.scss",
+		"_variables.scss";
 							
 
 
-* 
-    margin: 0% 
-	padding: 0% 
-	box-sizing: border-box 
-	font-family: "Shippori Antique B1", sans-serif 
-a 
-	transition: background-color 0.5s 
-	&:hover 
-		background-color: rgb(158, 158, 155) 
-		border-radius: 5px 
-.logo 
-	width: auto 
-	height: auto 
-	cursor: pointer 
-.nav 
-	display: flex 
-.body 
-	background-attachment: fixed 
-	background-image: url(../img/background.jpg) 
-	background-size: cover 
-	display: grid 
-	grid-template-columns: 3fr 
-	grid-template-rows: auto 
-	grid-template-areas: "header" "fbanda" "divBiografia" "fbanda2" "discografias" "videos" "galeria" "form" "footer" 
-.header 
-	grid-area: header 
-#fotosBanda 
-	grid-area: fbanda 
-	display: flex 
-	flex-wrap: wrap 
-	align-items: stretch 
-	justify-content: space-around 
-	margin-bottom: 2rem 
-.div__biografia 
-	grid-area: divBiografia 
-	border: inset 
-	color: azure 
-	padding-top: 20px 
-	padding-right: 10px 
-	padding-bottom: 20px 
-	padding-left: 10px 
-	width: 90% 
-	height: auto 
-	box-sizing: border-box 
-	margin-left: auto 
-	margin-right: auto 
-#fotosBanda2 
-	grid-area: fbanda2 
-	display: flex 
-	flex-wrap: wrap 
-	align-items: stretch 
-	justify-content: space-around 
-	margin-top: 2rem 
-.footer 
-	grid-area: footer 
-.discografias 
-	grid-area: discografias 
-	display: flex 
-	flex-wrap: wrap 
-	justify-content: flex-start 
-.videos 
-	grid-area: videos 
-	display: flex 
-	flex-wrap: wrap 
-	justify-content: flex-start 
-.galeria 
-	grid-area: galeria 
-	display: flex 
-	flex-wrap: wrap 
-	justify-content: space-around 
-.form 
-	grid-area: form 
-	display: flex 
-	flex-direction: column 
-	margin-left: 5rem 
-	width: auto 
-	width: -5px 
-#divLista 
-	display: grid 
-	grid-template-columns: 1fr 
-	grid-template-rows: auto 
-	margin-bottom: 3rem 
-	ul 
-		li 
-			font-size: 2rem 
-			margin-left: 4rem 
-			list-style: none 
-			display: inline-block 
-			margin-top: 5rem 
-			margin-right: 5rem 
-			a 
-				text-decoration: none 
-				color: rgb(198, 188, 188) 
-.biografia 
-	color: rgba(237, 227, 227, 0.53) 
-	text-align: left 
-	font-size: 2rem 
-	line-height: 2rem 
-	margin-top: 2rem 
-	margin-bottom: 1rem 
-	display: flex 
-	flex-wrap: wrap 
-	justify-content: space-around 
-html 
-	font-size: 62.5% 
-	display: flex 
-.titulo__biografia--uppercase 
-	color: rgb(198, 188, 188) 
-	text-align: center 
-	text-transform: uppercase 
-	margin-bottom: 2rem 
-	margin-top: 10rem 
-#foo 
-	display: flex 
-	position: sticky 
-	width: 100% 
-	bottom: 0px 
-#divfoo 
-	bottom: 0px 
-.titulo__discografia 
-	display: flex 
-	align-items: center 
-	justify-content: center 
-	color: rgb(198, 188, 188) 
-	text-align: center 
-	font-size: 2rem 
-	margin-bottom: 2rem 
-.p_discografia 
-	color: rgb(198, 188, 188) 
-	text-align: center justify 
-	font-size: 1.3rem 
-.smash 
-	text-align: center 
-.consp 
-	text-align: center 
-.hombre 
-	text-align: center 
-.americana 
-	text-align: center 
-#americana1 
-	margin-top: 1rem 
-	margin-bottom: 3rem 
-#div_video 
-	margin-left: 1rem 
-	margin-right: 1rem 
-.carsec 
-	display: flex 
-	align-items: center 
-	justify-content: center 
-.titulo_contacto 
-	color: rgb(198, 188, 188) 
-	font-size: 2rem 
-	margin-bottom: 3rem 
-	margin-left: 5rem 
-#nombre 
-	color: rgb(198, 188, 188) 
-	font-size: 1.5rem 
-	margin-bottom: 1rem 
-#apellido 
-	color: rgb(198, 188, 188) 
-	font-size: 1.5rem 
-	margin-bottom: 1rem 
-#mail 
-	color: rgb(198, 188, 188) 
-	font-size: 1.5rem 
-	margin-bottom: 1rem 
-#comentario 
-	color: rgb(198, 188, 188) 
-	font-size: 1.5rem 
-	margin-bottom: 1rem 
-	align-items: stretch 
-#opinion 
-	overflow: scroll hidden 
-	resize: none 
-	width: 30rem 
-	width: 20rem 
-.titulo_comentario 
-	color: rgb(198, 188, 188) 
-	font-size: 1.5rem 
-	padding-bottom: 2rem 
-@media (max-width &: 790px) 
-		
-.logo {
-    width: 95% 
-} 
-@media (max-width &:788px) #fban {
-        padding-top: 1rem 
-		padding-bottom: 3rem 
-				360px) 
-.nav {
-    justify-content: center 
-#vid1 
-	width: 340px 
-	align-items: center 
-#vid2 
-	width: 340px 
-	align-items: center 
-#vid3 
-	width: 340px 
-	align-items: center 
-}
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	font-family: "Shippori Antique B1", sans-serif;
+  }
+  
+  
+  
+  
+  
+   
+  
+  .biografia {
+	color: rgba(237, 227, 227, 0.53);
+	text-align: left;
+	font-size: 2rem;
+	line-height: 2rem;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  }
+  
+  .div__biografia {
+	border: inset;
+	color: $color-div;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	width: 90%;
+	height: auto;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+  html {
+	font-size: 62.5%;
+	display: flex;
+  }
+  
+  .titulo__biografia--uppercase {
+	color: $titulo-biografia;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 2rem;
+  }
+  
+  #fotosBanda {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	justify-content: space-around;
+	margin-bottom: 2rem;
+  }
+  
+  #fotosBanda2 {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	justify-content: space-around;
+	margin-top: 2rem;
+  }
+  
+   
+  
+  /* discografia */
+  
+  /* finaliza discografia */
+  /*---------------------------------------------------------------/*
+  /* videos */
+  
+   
+  
+  /*finaliza video*/
+  
+  /*galeria*/
+  
+  
+  /* fin galeria */
+   
+  /* media queris */
+  
+   
+  

@@ -1,0 +1,37 @@
+@media (max-width: 790px) {
+	.logo {
+	  width: 95%;
+	}
+  }
+  
+  @media (max-width: 788px) {
+	#fban {
+	  padding-top: 1rem;
+	  padding-bottom: 3rem;
+	}
+  }
+  
+  @media (max-width: 360px) {
+	.nav {
+	  justify-content: center;
+	}
+  
+	#vid1 {
+	  width: 340px;
+	  align-items: center;
+	}
+	#vid2 {
+	  width: 340px;
+	  align-items: center;
+	}
+	#vid3 {
+	  width: 340px;
+	  align-items: center;
+	}
+	.form {
+	  width: -5px;
+	}
+	#opinion {
+	  width: 20rem;
+	}
+  }

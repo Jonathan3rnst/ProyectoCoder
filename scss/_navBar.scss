@@ -1,0 +1,49 @@
+.nav {
+  display: flex;
+}
+
+#divLista {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  margin-bottom: 3rem;
+}
+
+#divLista {
+  ul {
+    li {
+      font-size: 2rem;
+      margin-left: 4rem;
+      list-style: none;
+      display: inline-block;
+      margin-top: 5rem;
+      margin-right: 5rem;
+    }
+  }
+}
+
+#divLista {
+  ul {
+    li {
+      a {
+        text-decoration: none;
+        color: rgb(198, 188, 188);
+      }
+    }
+  }
+}
+
+a {
+  transition: background-color 0.5s;
+}
+
+a:hover {
+  background-color: rgb(158, 158, 155);
+  border-radius: 5px;
+}
+
+.logo {
+  width: auto;
+  height: auto;
+  cursor: pointer;
+}
