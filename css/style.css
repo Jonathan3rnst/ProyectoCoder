@@ -33,6 +33,7 @@ a:hover {
   cursor: pointer; }
 
 .body {
+  height: 100vh;
   background-attachment: fixed;
   background-image: url(../img/background.jpg);
   background-size: cover;
@@ -189,7 +190,7 @@ a:hover {
 
 #foo {
   display: flex;
-  position: sticky;
+  position: fixed;
   width: 100%;
   bottom: 0px; }
 
