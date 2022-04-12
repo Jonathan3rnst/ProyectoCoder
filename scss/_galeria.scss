@@ -2,14 +2,21 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-bottom: 5rem;
   }
   
   .titulo__biografia--uppercase {
-	margin-top: 10rem;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	
+	
   }
   
   .galeria {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	margin-bottom: 15rem;
+	
   }

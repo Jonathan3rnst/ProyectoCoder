@@ -2,6 +2,9 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
+	margin-top: 100px;
+	z-index: 10;
+	
   }
   
   .titulo__discografia {
@@ -18,6 +21,7 @@
 	color: rgb(198, 188, 188);
 	text-align: center justify;
 	font-size: 1.3rem;
+
   }
   
   .smash {
@@ -34,8 +38,6 @@
   
   .americana {
 	text-align: center;
+	margin-bottom: 15rem;
   }
-  #americana1 {
-	margin-top: 1rem;
-	margin-bottom: 3rem;
-  }
+ 
