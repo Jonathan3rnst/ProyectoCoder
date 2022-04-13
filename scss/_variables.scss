@@ -1,2 +1,26 @@
 $color-div:  azure;
 $titulo-biografia:rgb(198, 188, 188);
+
+.btn1{
+    background:linear-gradient(to bottom , rgb(250, 236, 236) , rgb(250, 24, 24));
+   width: 70px;
+   height: 30px;
+    border: none;
+    &:hover {
+        color: rgb(238, 0, 0);
+        cursor: pointer;
+    }
+}
+
+.btn2{
+    @extend .btn1;
+    border-radius: 10px;
+}
+
+@mixin texto ($font-size , $line-height, $color) {
+    font-size: $font-size;
+    line-height: $line-height;
+    color: $color;
+    
+}
+

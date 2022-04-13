@@ -38,7 +38,6 @@ a:hover {
   background-image: url(../img/background.jpg);
   background-size: cover;
   display: grid;
-  grid-template-columns: 3fr;
   grid-template-rows: auto;
   grid-template-areas: "header" "fbanda" "divBiografia" "fbanda2" "discografias" "videos" "galeria" "form" "footer"; }
 
@@ -82,11 +81,12 @@ a:hover {
   align-items: center;
   justify-content: center; }
 
-.galeria {
+.container-fluid {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
-  justify-content: space-around;
-  margin-bottom: 15rem; }
+  justify-content: space-evenly;
+  padding-bottom: 15rem; }
 
 .titulo_contacto {
   color: #c6bcbc;
@@ -176,7 +176,8 @@ a:hover {
 .p_discografia {
   color: #c6bcbc;
   text-align: center justify;
-  font-size: 1.3rem; }
+  font-size: 1.3rem;
+  width: auto; }
 
 .smash {
   text-align: center; }
@@ -206,6 +207,18 @@ a:hover {
   margin-left: 1rem;
   margin-right: 1rem; }
 
+.btn1, .btn2 {
+  background: linear-gradient(to bottom, #faecec, #fa1818);
+  width: 70px;
+  height: 30px;
+  border: none; }
+  .btn1:hover, .btn2:hover {
+    color: #ee0000;
+    cursor: pointer; }
+
+.btn2 {
+  border-radius: 10px; }
+
 * {
   margin: 0%;
   padding: 0%;
@@ -213,15 +226,17 @@ a:hover {
   font-family: "Shippori Antique B1", sans-serif; }
 
 .biografia {
-  color: rgba(237, 227, 227, 0.53);
   text-align: left;
-  font-size: 2rem;
-  line-height: 2rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
+
+p {
+  font-size: 2rem;
+  line-height: 2rem;
+  color: rgba(237, 227, 227, 0.53); }
 
 .div__biografia {
   border: inset;
@@ -258,7 +273,8 @@ html {
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: space-around;
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  padding-bottom: 10rem; }
 
 /* discografia */
 /* finaliza discografia */

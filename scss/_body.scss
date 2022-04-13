@@ -4,7 +4,7 @@
 	background-image: url(../img/background.jpg);
 	background-size: cover;
 	display: grid;
-	grid-template-columns: 3fr;
+	
 	grid-template-rows: auto;
 	grid-template-areas: "header" "fbanda" "divBiografia" "fbanda2" "discografias" "videos" "galeria" "form" "footer";
   }

@@ -13,10 +13,11 @@
 	
   }
   
-  .galeria {
+  .container-fluid {
 	display: flex;
+	align-items: center;
 	flex-wrap: wrap;
-	justify-content: space-around;
-	margin-bottom: 15rem;
+	justify-content: space-evenly;
+	padding-bottom: 15rem;
 	
-  }
+  } 

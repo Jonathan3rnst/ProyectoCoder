@@ -1,140 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The offpring Contacto</title>
-    <!--BS-->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <!--wow js-->
-    <link rel="stylesheet" href="../css/animate.css">
-    <!--font awesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-    <script src="../js/wow.min.js"></script> 
-    
-    <script>
-        new WOW().init();
 
- </script>  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The offpring Contacto</title>
+  <!--BS-->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <!--wow js-->
+  <link rel="stylesheet" href="../css/animate.css">
+  <!--font awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <script src="../js/wow.min.js"></script>
+
+  <script>
+    new WOW().init();
+
+  </script>
 
 </head>
+
 <body class="body">
-    <header class="header" >
-        <!--inicia nav-->
-        <nav class="nav">
-           
-            <a href="../index.html">
-                <img class="logo" src="../img/logo.png" alt="logo the offpring" >
-			</a>
-            <div class="wow slideInRight" data-wow-offset="10" id="divLista">
-            <ul class="lista" >
-                <li>
-                    <a href="../index.html" id="boton">Home</a>
-                </li>
-                <li>
-                    <a href="discografia.html" id="boton">Discografia</a>
-                </li>
+  <header class="header">
+    <!--inicia nav-->
+    <nav class="nav">
 
-                <li>
-                    <a href="videos.html" id="boton">Videos</a>
-                </li>
+      <a href="../index.html">
+        <img class="logo" src="../img/logo.png" alt="logo the offpring">
+      </a>
+      <div class="wow slideInRight" data-wow-offset="10" id="divLista">
+        <ul class="lista">
+          <li>
+            <a href="../index.html" id="boton">Home</a>
+          </li>
+          <li>
+            <a href="discografia.html" id="boton">Discografia</a>
+          </li>
 
-                <li>
-                    <a href="galeria.html" id="boton">Galeria</a>
-                </li>
+          <li>
+            <a href="videos.html" id="boton">Videos</a>
+          </li>
 
-                <li>
-                    <a href="contacto.html" id="boton">Contacto</a>
-                </li>
-            </ul>
-        </div>    
+          <li>
+            <a href="galeria.html" id="boton">Galeria</a>
+          </li>
 
-        </nav>
-        <!--finaliza nav-->
+          <li>
+            <a href="contacto.html" id="boton">Contacto</a>
+          </li>
+        </ul>
+      </div>
 
-    </header>
+    </nav>
+    <!--finaliza nav-->
 
-    <h1 class="titulo_contacto">contacto</h1>
+  </header>
 
-      <div >
-          <main class="form">
-              <section>
-                  <div>
-                      <form action="contacto.php" method="post" id="contacto">
+  <h1 class="titulo_contacto">contacto</h1>
 
-                        <div id="nombre">
-                          <label for="nombre">Nombre:</label>
-                          <input type="text" placeholder="ingresa tu nombre" name="nombre" id="nombre">
-                        </div>
+  <div>
+    <main class="form">
+      <section>
+        <div>
+          <form action="contacto.php" method="post" id="contacto">
 
-                        <div id="apellido">
-                          <label for="apellido">Apellido:</label>
-                          <input type="text" placeholder="ingresa tu apellido" name="apellido" id="apellido">
-                        </div>
+            <div id="nombre">
+              <label for="nombre">Nombre:</label>
+              <input type="text" placeholder="ingresa tu nombre" name="nombre" id="nombre">
+            </div>
 
-                        <div id="mail">
-                          <label for="mail">Mail:</label>
-                          <input type="email" placeholder="ingresa tu mail" name="mail" id="mail">
-                        </div>
+            <div id="apellido">
+              <label for="apellido">Apellido:</label>
+              <input type="text" placeholder="ingresa tu apellido" name="apellido" id="apellido">
+            </div>
 
-                        <div class="titulo_comentario" >  
-                           <label for="comentario">comentario:</label>
-                        </div>
+            <div id="mail">
+              <label for="mail">Mail:</label>
+              <input type="email" placeholder="ingresa tu mail" name="mail" id="mail">
+            </div>
 
-                        <div id="comentario" >
-                          <textarea name="opinion" id="opinion" cols="10" rows="10" placeholder="danos tu opinion"></textarea>
-                        </div>  
-					
-                    <div id="botones" >
-					<input type="submit" value="Enviar">
-					<input type="reset" value="Cancelar">
-					</div>
+            <div class="titulo_comentario">
+              <label for="comentario">comentario:</label>
+            </div>
 
-                      </form>
-                  </div>
-              </section>
-          </main>
+            <div id="comentario">
+              <textarea name="opinion" id="opinion" cols="10" rows="10" placeholder="danos tu opinion"></textarea>
+            </div>
+
+            <div>
+              <input type="submit" value="Enviar" >
+              <input type="reset" value="Cancelar" >
+            </div>
+
+            <div>
+              <button class="btn1">boton1</button>
+              <button class="btn2">boton2</button>
+            </div>
+
+          </form>
         </div>
+      </section>
+    </main>
+  </div>
 
 
-         
-  
-          <footer class="bg-dark text-center text-white" id="foo">
-            <!-- Grid container -->
-            <div class="container p-2 pb-0">
-              <!-- Section: Social media -->
-              <section class="mb-4">
-                <!-- Facebook -->
-                <a class="btn btn-outline-light  m-3" href="https://facebook.com/" 
-                  ><i class="fab fa-facebook-square fa-2x "></i> 
-                </a>
-                <!-- Twitter -->
-                <a class="btn btn-outline-light btn-floating m-3" href="https://twitter.com/" role="button"
-                  ><i class="fab fa-twitter fa-2x"></i>
-                </a>
-                <!-- Google -->
-                <a class="btn btn-outline-light btn-floating m-3" href="https://Google.com/" role="button"
-                  ><i class="fab fa-google fa-2x"></i
-                  ></a>
-                  <!-- Instagram -->
-                  <a class="btn btn-outline-light btn-floating m-3" href="https://instagram.com/" role="button"
-                    ><i class="fa fa-camera-retro fa-2x"></i></i
-                  ></a>
-                </section>
-                <!-- Section: Social media -->
-              </div>
-              <!-- Grid container -->
-              
-              <!-- Copyright -->
-          <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2022 Copyright:
-            <a class="text-white">Jonathan Ernst</a>
-          </div>
-          <!-- Copyright -->
-          </footer>
 
-          <script src="../js/bootstrap.min.js"></script>
+
+  <footer class="bg-dark text-center text-white" id="foo">
+    <!-- Grid container -->
+    <div class="container p-2 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light  m-3" href="https://facebook.com/"><i class="fab fa-facebook-square fa-2x "></i>
+        </a>
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-3" href="https://twitter.com/" role="button"><i
+            class="fab fa-twitter fa-2x"></i>
+        </a>
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-3" href="https://Google.com/" role="button"><i
+            class="fab fa-google fa-2x"></i></a>
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-3" href="https://instagram.com/" role="button"><i
+            class="fa fa-camera-retro fa-2x"></i></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white">Jonathan Ernst</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <script src="../js/bootstrap.min.js"></script>
 
 </html>

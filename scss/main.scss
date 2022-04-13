@@ -25,15 +25,18 @@
    
   
   .biografia {
-	color: rgba(237, 227, 227, 0.53);
+	
 	text-align: left;
-	font-size: 2rem;
-	line-height: 2rem;
-	margin-top: 2rem;
+	
+		margin-top: 2rem;
 	margin-bottom: 1rem;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+  }
+
+  p{
+	  @include texto ( 2rem,2rem, rgba(237, 227, 227, 0.53) )
   }
   
   .div__biografia {
@@ -76,6 +79,7 @@
 	align-items: stretch;
 	justify-content: space-around;
 	margin-top: 2rem;
+	padding-bottom: 10rem;
   }
   
    
