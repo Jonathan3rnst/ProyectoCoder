@@ -1,105 +1,74 @@
-@import "_navBar.scss",
-        "_body.scss",
-		"_galeria.scss",
-		"_contacto.scss",
-		"_fonts.scss",
-		"_breakPoints.scss",
-		"_discografias.scss",
-		"_footer.scss",
-		"_videos.scss",
-		"_variables.scss";
-							
+@import "_navBar.scss", "_body.scss", "_galeria.scss", "_contacto.scss",
+  "_fonts.scss", "_breakPoints.scss", "_discografias.scss", "_footer.scss",
+  "_videos.scss", "_variables.scss";
 
-
+$paleta: (
+  "uno": #e12323,
+  "dos": #2e2727,
+  "tres": #f0ffff,
+);
 * {
-	margin: 0%;
-	padding: 0%;
-	box-sizing: border-box;
-	font-family: "Shippori Antique B1", sans-serif;
-  }
-  
-  
-  
-  
-  
-   
-  
-  .biografia {
-	
-	text-align: left;
-	
-		margin-top: 2rem;
-	margin-bottom: 1rem;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-  }
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Shippori Antique B1", sans-serif;
+}
 
-  p{
-	  @include texto ( 2rem,2rem, rgba(237, 227, 227, 0.53) )
-  }
-  
-  .div__biografia {
-	border: inset;
-	color: $color-div;
-	padding-top: 20px;
-	padding-right: 10px;
-	padding-bottom: 20px;
-	padding-left: 10px;
-	width: 90%;
-	height: auto;
-	box-sizing: border-box;
-	margin-left: auto;
-	margin-right: auto;
-  }
-  
-  html {
-	font-size: 62.5%;
-	display: flex;
-  }
-  
-  .titulo__biografia--uppercase {
-	color: $titulo-biografia;
-	text-align: center;
-	text-transform: uppercase;
-	margin-bottom: 2rem;
-  }
-  
-  #fotosBanda {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: stretch;
-	justify-content: space-around;
-	margin-bottom: 2rem;
-  }
-  
-  #fotosBanda2 {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: stretch;
-	justify-content: space-around;
-	margin-top: 2rem;
-	padding-bottom: 10rem;
-  }
-  
-   
-  
-  /* discografia */
-  
-  /* finaliza discografia */
-  /*---------------------------------------------------------------/*
-  /* videos */
-  
-   
-  
-  /*finaliza video*/
-  
-  /*galeria*/
-  
-  
-  /* fin galeria */
-   
-  /* media queris */
-  
-   
-  
+.biografia {
+  text-align: left;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+p {
+  @include texto(2rem, 2rem, rgba(237, 227, 227, 0.53));
+}
+
+.div__biografia {
+  background-color: map-get($map: $paleta, $key: "dos");
+  opacity: 1;
+  border: inset;
+  color: $color-div;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  width: 90%;
+  height: auto;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html {
+  font-size: 62.5%;
+  display: flex;
+}
+
+.titulo__biografia--uppercase {
+  color: $titulo-biografia;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+#fotosBanda {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+#fotosBanda2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  margin-top: 2rem;
+  padding-bottom: 10rem;
+}
+
