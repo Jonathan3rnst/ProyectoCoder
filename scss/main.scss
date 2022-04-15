@@ -24,12 +24,11 @@ $paleta: (
 }
 
 p {
-  @include texto(2rem, 2rem, rgba(237, 227, 227, 0.53));
+  @include texto(2rem, 2rem, rgba(253, 253, 253, 0.767));
 }
 
 .div__biografia {
   background-color: map-get($map: $paleta, $key: "dos");
-  opacity: 1;
   border: inset;
   color: $color-div;
   padding-top: 20px;
@@ -42,6 +41,7 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+ 
 
 html {
   font-size: 62.5%;

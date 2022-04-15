@@ -1,0 +1,12 @@
+
+Modificaciones proyecto Coder Jonathan Ernst:
+
+
+-fraccione el codigo de css a los archivos .scss correspondientes, mejore identacion del site.
+-mejore el perfomance de las imagenes reduciendo el peso que tenian para un mejor consumo del site.
+-agregue la propiedad "height: 100vh;" en el scssde body.
+-modifique el flex del footer y cambie el "position:sticky" a "position:flex" para ubicar el footer en su lugar.
+-agregue $maps , @mixings y @extends.
+-cambio de color de ".biografia" a un color mas legible para mejor accesibilidad.
+-removi los "ID:boton" porque no eran necesarios y sacaban puntos de accesibilidad.
+-agregue "area-label" para el footer para mejorar la accesibilidad.

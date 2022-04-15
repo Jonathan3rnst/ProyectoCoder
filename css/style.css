@@ -236,11 +236,10 @@ a:hover {
 p {
   font-size: 2rem;
   line-height: 2rem;
-  color: rgba(237, 227, 227, 0.53); }
+  color: rgba(253, 253, 253, 0.767); }
 
 .div__biografia {
   background-color: #2e2727;
-  opacity: 1;
   border: inset;
   color: #f0ffff;
   padding-top: 20px;
@@ -258,7 +257,7 @@ html {
   display: flex; }
 
 .titulo__biografia--uppercase {
-  color: #c6bcbc;
+  color: #f7f4f4;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 2rem; }
