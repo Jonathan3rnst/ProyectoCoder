@@ -2,6 +2,10 @@
 Modificaciones proyecto Coder Jonathan Ernst:
 
 
+18/5/22 : agregue bootstrap a la navBar
+-modifique el carousel de "galeria" para comodarlo y que quede responsive.
+-agregue un icono a la pestaña de cada HTML.
+-------------------------------------------------------------------------------
 -fraccione el codigo de css a los archivos .scss correspondientes, mejore identacion del site.
 -mejore el perfomance de las imagenes reduciendo el peso que tenian para un mejor consumo del site.
 -agregue la propiedad "height: 100vh;" en el scssde body.
