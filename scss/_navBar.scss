@@ -18,7 +18,7 @@
     background-color: ivory;
 }
 
-// #divLista {
+
 ul {
     li {
         font-size: 2rem;
@@ -26,20 +26,20 @@ ul {
         list-style: none;
         display: inline-block;
         margin-top: 5rem;
-        // margin-right: 5rem;
+        
 
         &:hover {
-            background-color: rgb(158, 158, 155) !important;
+            background-color: rgb(158, 158, 155) ;
             border-radius: 5px;
         }
 
         a {
             transition: background-color 0.5s;
             text-decoration: none;
-            color: rgb(198, 188, 188) !important;
+            color: rgb(198, 188, 188) ;
 
             a:hover {
-                background-color: rgb(158, 158, 155) !important;
+                background-color: rgb(158, 158, 155);
                 border-radius: 5px;
             }
 
