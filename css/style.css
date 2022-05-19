@@ -22,14 +22,14 @@ ul li {
   display: inline-block;
   margin-top: 5rem; }
   ul li:hover {
-    background-color: #9e9e9b;
+    background-color: #9e9e9b !important;
     border-radius: 5px; }
   ul li a {
     transition: background-color 0.5s;
     text-decoration: none;
-    color: #c6bcbc; }
+    color: #c6bcbc !important; }
     ul li a a:hover {
-      background-color: #9e9e9b;
+      background-color: #9e9e9b !important;
       border-radius: 5px; }
 
 .logo {

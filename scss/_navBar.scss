@@ -29,17 +29,17 @@ ul {
         
 
         &:hover {
-            background-color: rgb(158, 158, 155) ;
+            background-color: rgb(158, 158, 155) !important;
             border-radius: 5px;
         }
 
         a {
             transition: background-color 0.5s;
             text-decoration: none;
-            color: rgb(198, 188, 188) ;
+            color: rgb(198, 188, 188) !important;
 
             a:hover {
-                background-color: rgb(158, 158, 155);
+                background-color: rgb(158, 158, 155) !important;
                 border-radius: 5px;
             }
 
@@ -49,13 +49,17 @@ ul {
     }
 }
 
-
-
-
-
-
 .logo {
     width: auto;
     height: auto;
     cursor: pointer;
 }
+
+
+    
+	
+
+
+
+
+
